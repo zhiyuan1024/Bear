@@ -33,4 +33,4 @@ set_target_properties(ear PROPERTIES INSTALL_RPATH "@loader_path/${CMAKE_INSTALL
 
 include(GNUInstallDirs)
 install(TARGETS ear
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
+    LIBRARY DESTINATION "usr/local/lib64")
